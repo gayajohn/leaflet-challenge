@@ -17,7 +17,8 @@ https://gayajohn.github.io/belly-button-challenge/
 ## Challenge Objective
 
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. 
-The objective of this challenge was to extract earthquake data from the their USGS GeoJSON feed on earthquakes from the past 7 days (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) and map out the earthquakes on the map. The markers  reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes will appear larger, and earthquakes with greater depth will appear darker in color. 
+The objective of this challenge was to extract earthquake data from the their USGS GeoJSON feed on earthquakes from the past 7 days (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) and map them out on a world map. 
+The markers  reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes will appear larger, and earthquakes with greater depth will appear darker in color. 
 The map also includes popups that provide additional information on the magnitude, depth and location of the earthquake when its associated marker is clicked.
 
 ## Packages Used
