@@ -27,6 +27,7 @@ function createMarkers(earthquakeData){
         let magnitude = earthquake.properties.mag;
         let depth = earthquake.geometry.coordinates[2];
         let location = [earthquake.geometry.coordinates[1], earthquake.geometry.coordinates[0]]
+        let place = earthquake.properties.place;
     
         let marker = L.circle(location, {
             color: 'black', 
@@ -34,7 +35,7 @@ function createMarkers(earthquakeData){
             weight: 1,
             fillOpacity: 1,
             radius: magnitude*15000
-            }).bindPopup(`Magnitude: ${magnitude}<br>Depth: ${depth} km<br>Location: ${location}`)
+            }).bindPopup(`<h3>${place}</h3><hr>Magnitude: ${magnitude}<br>Depth: ${depth} km<br>Coordinates: ${location[0]}, ${location[1]}`)
 
         markersList.push(marker);
     })
@@ -108,7 +109,8 @@ function selectColor(depth){
 
 // calling the url and running the createMarkers function
 d3.json(url).then(function(data){
-    createMarkers(data.features);      
+    createMarkers(data.features); 
+    console.log(data.features);     
 })
 
 
