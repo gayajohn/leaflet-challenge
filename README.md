@@ -2,9 +2,9 @@
 
 ## App Access
 
-https://gayajohn.github.io/belly-button-challenge/
+https://gayajohn.github.io/earthquake-app/
 
-<img width="489" alt="image" src="https://github.com/gayajohn/belly-button-challenge/assets/135036996/512b26d4-4443-402c-b349-038af2611a89">
+<img width="957" alt="image" src="https://github.com/gayajohn/leaflet-challenge/assets/135036996/4be9db27-ba5a-47c9-a1cc-25b849a09a0c">
 
 
 ## Table of Contents
