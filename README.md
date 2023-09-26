@@ -26,7 +26,7 @@ The map also includes popups that provide additional information on the magnitud
 
 - D3.js: To read JSON url (https://d3js.org/)
 
-- Chroma.js: To creatr color scale (https://gka.github.io/chroma.js/)
+- Chroma.js: To create color scale (https://gka.github.io/chroma.js/)
 
 ## References
 
