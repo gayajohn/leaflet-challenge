@@ -4,7 +4,7 @@
 
 https://gayajohn.github.io/earthquake-app/
 
-<img width="959" alt="image" src="https://github.com/gayajohn/leaflet-challenge/assets/135036996/ab8daae5-f22d-4866-aeb6-231e445ee3ba">
+<img width="958" alt="image" src="https://github.com/gayajohn/leaflet-challenge/assets/135036996/e9e84582-ae29-4c1d-9b36-6f389227d06a">
 
 
 ## Table of Contents
